@@ -1,8 +1,8 @@
 package io.jzheaux.springsecurity.resolutions;
 
 import java.util.Optional;
-import org.graalvm.compiler.lir.CompositeValue.Component;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionOperations;
+import org.springframework.stereotype.Component;
 
 @Component("post")
 public class ResolutionAuthorizer {
